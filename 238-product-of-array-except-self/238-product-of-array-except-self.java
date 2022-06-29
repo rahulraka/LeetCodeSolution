@@ -6,9 +6,7 @@ class Solution {
 }
     public static int[] result(int n,int[] arr){
        if(arr.length==1){
-           int[] ans=new int[1];
-           ans[0]=arr[0];
-           return ans;
+           return arr;
        } 
        int[] left=new int[n];
        int[] right=new int[n];
